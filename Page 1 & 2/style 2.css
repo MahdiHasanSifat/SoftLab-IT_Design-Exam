@@ -1,0 +1,238 @@
+/* Body styles */
+body {
+  background-color: rgba(209, 209, 209, 0.904);
+  width: 599px;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* Top image section */
+.topimage {
+  background-color: rgba(209, 209, 209, 0.904);
+  display: inline-block;
+}
+
+.topimage1 {
+  width: 599px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 3;
+}
+
+.topimage2 {
+  width: 599px;
+  position: relative;
+  top: 0px;
+  left: -8px;
+  right: 12px;
+  bottom: 0px;
+}
+
+/* Back button styles */
+.bkbtn {
+  position: absolute;
+  top: 175px;
+  left: 10px;
+  width: 45px;
+  background: white;
+  box-shadow: 1px;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Love button styles */
+.love-button {
+  z-index: 5;
+  position: absolute;
+  top: 175px;
+  left: 520px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  box-shadow: 25px;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+/* Title section styles */
+.title {
+  text-align: center;
+  position: relative;
+  top: auto;
+}
+
+.paratext {
+  font-size: 10px;
+}
+
+/* Nutrition section styles */
+.nutrition {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+  width: 562px;
+  left: 11px;
+  padding: 1px;
+  margin-top: 25px;
+}
+
+/* Nutrition list styles */
+.nutrition ul {
+  display: flex;
+  list-style: none;
+  width: 466px;
+}
+
+.nutrition ul li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.number {
+  font-size: 16px;
+  font-weight: 750;
+}
+
+.number1 {
+  font-size: 16px;
+  font-weight: 750;
+  color: red;
+}
+
+.name {
+  font-size: 7px;
+}
+
+/* Ingredients section styles */
+.ingredients {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+  padding: 1px;
+  width: 562px;
+  left: 11px;
+  margin-top: 19px;
+}
+
+.ingredients ul {
+  display: flex;
+  list-style: none;
+  width: 466px;
+}
+
+.ingredients ul li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.upkiwi {
+  margin-top: 22px;
+}
+
+.foodname {
+  font-size: 10px;
+}
+
+.namekiwi {
+  margin-top: 8px;
+}
+
+/* Preparation section styles */
+.preparation {
+  background-color: white;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  height: 50px;
+  position: relative;
+  width: 562px;
+  left: 11px;
+  top: 5px;
+  padding-top: 1px;
+  margin-top: 15px;
+}
+
+/* Navigation section styles */
+.navigation {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  padding: 15px;
+  left: -8px;
+}
+
+.navigation ul {
+  display: flex;
+  width: 599px;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 140px;
+  height: 50px;
+  z-index: 1;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  line-height: 55px;
+  font-size: 1.5em;
+  transition: 0.3s;
+  color: grey;
+  width: 138px;
+  transform: translateX(0);
+}
+
+.navigation ul li a .icon1 {
+  color: white;
+  background: green;
+  border-radius: 45px;
+  width: 138px;
+  line-height: 44px;
+}
+
+.navigation ul li a .text {
+  position: relative;
+  color: gray;
+  line-height: 50px;
+  transition: 0.3s;
+  opacity: 0;
+  letter-spacing: 0.05;
+}
+
+.navigation ul li:hover a .text {
+  opacity: 1;
+  background: green;
+  font-weight: 600;
+  color: white;
+  border-radius: 15px;
+}

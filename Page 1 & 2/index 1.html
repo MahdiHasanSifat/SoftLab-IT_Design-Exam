@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diet Tracker</title>
+    <style>
+      /* Basic styles */
+      body {
+        background: #f0f0f0;
+
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+      }
+      section {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #f0f0f0;
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.173);
+        margin-top: 10px;
+        align-items: center;
+      }
+
+      /* Styles for arrow button */
+      .arr {
+        background: black;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-top: 25px;
+        cursor: pointer;
+      }
+      .arrlft {
+        position: relative;
+        height: 20px;
+        width: 20px;
+        border-top: 7px solid white;
+        border-right: 7px solid white;
+        transform: rotate(40deg);
+        border-radius: 15%;
+        left: 7px;
+        top: 12px;
+        cursor: pointer;
+      }
+
+      /* Media query for smaller screens */
+      @media only screen and (max-width: 599px) {
+        /* Styles for mobile screens */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <div>
+        <img src="Assets\Mask Group 3.png" alt="Image description" />
+      </div>
+      <!-- Image -->
+      <div>
+        <img src="Assets\undraw_workout_gcgu.png" alt="Image description" />
+      </div>
+      <!-- Title -->
+      <div>
+        <h1>
+          Let's do your diet <span style="color: rgb(6, 156, 6)">katy</span>
+        </h1>
+      </div>
+    </header>
+    <section>
+      <!-- Form for weight and height -->
+      <form>
+        <label for="weight"></label>
+        <input
+          type="text"
+          id="weight"
+          name="weight"
+          placeholder="What is your current weight?"
+        />
+        <label for="height"></label>
+        <input
+          type="text"
+          id="height"
+          name="height"
+          placeholder="What is your current height?"
+        />
+        <!-- <button type="submit">Next</button> -->
+      </form>
+    </section>
+    <!-- Arrow button -->
+    <div class="arr">
+      <div class="arrlft">
+        <!-- Arrow icon -->
+        <!-- <ion-icon name="chevron-forward-circle"></ion-icon> -->
+      </div>
+    </div>
+    <!-- Next button -->
+    <div>
+      <p class="next">Next</p>
+    </div>
+
+    <!-- Ionicons library -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
